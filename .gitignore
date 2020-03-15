@@ -29,3 +29,15 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+###我项目中一般不需要上传到git服务器上的有###
+.idea　　　　
+.mvn　　　　
+.iml
+mvnw
+mvnw.cmd
+logs/
+help.md
+
+application.properties
