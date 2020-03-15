@@ -20,7 +20,7 @@ public class SwaggerConfig {
                 .apiInfo(apiInfo())
                 .select()
                 //为当前包路径
-                .apis(RequestHandlerSelectors.basePackage("com.teavamc.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.teavamc.demo.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
