@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 @Api(value = "Boot控制器")
 public class BootController {
 
-
     @ApiModelProperty(value = "测试接口")
     @PostMapping(value = "/test")
     public TestDTO getTest(){
